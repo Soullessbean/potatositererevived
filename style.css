@@ -14,7 +14,7 @@
       }
       
       h1 {
-        color: rbg(5, 0, 0);
+        color: rbg(255, 255, 255);
       }
       a:link, a:visited {
         background-color: rgba(255, 255, 255, 0.164);
