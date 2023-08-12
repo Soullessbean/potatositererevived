@@ -46,3 +46,12 @@
       h1 {
         border-bottom: 3px dotted rgb(0, 0, 0);
       }
+      head {
+        border-bottom: 3px outset rgba(0, 0, 0, 0.616)
+
+      }
+      h2 {
+        border-bottom: 3px outset rgba(0, 0, 0, 0.616)
+
+      }
+    
