@@ -16,3 +16,30 @@
       h1 {
         color: rbg(5, 0, 0);
       }
+      a:link, a:visited {
+        background-color: rgba(255, 255, 255, 0.164);
+        color: rgb(255, 255, 255);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: rgb(255, 138, 210);
+      }
+      a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: bold;
+      }
+      
+      a:active {
+        text-decoration: bold;
+      }
