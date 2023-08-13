@@ -57,9 +57,9 @@ h2 {
 body{
 
 background-repeat:no-repeat;
-background-position: center center;
+background-position: center fixed;
 background-image:url(./images/doot.png);
-color:#FFF;
-font-family:Arial, Helvetica, sans-serif;
+color:#ffffff;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
 min-height:125%;
 }
