@@ -53,5 +53,13 @@
       h2 {
         border-bottom: 3px outset rgba(255, 255, 255, 0.616)
       }
-      
+      body{
+
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image:url(./images/doot.png);
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height:100%;
+}
     
