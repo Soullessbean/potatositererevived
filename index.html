@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="style.css">
 <html>
-
+    
 <head>
     <title> Potato the Site </title>
-    <link rel="icon" type="image/x-icon" href=".assets/favicon.gif">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.gif">
 
 </head>
 <script src="main.js"></script>
@@ -17,38 +17,36 @@
 
 <body>
 
-    <h2 class="dotted"> Welcome to PotatoSite.</h2>
+    <h2>
+        <div id="wobble">Potato The Site</div>
+    </h2>
     <!-- so uh this is my first coded webpage and im new to coding so its gonna be bad lol -->
 
-    <p> Welcome!  </p>
 
     <body onload="startTime()">
-        <div id="txt"></div>
+        <div id="txt"></div> 
         <script>
-            function startTime() {
-                const today = new Date();
-                let h = today.getHours();
-                let m = today.getMinutes();
-                let s = today.getSeconds();
-                m = checkTime(m);
-                s = checkTime(s);
-                document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
-                setTimeout(startTime, 1000);
-            }
-
-            function checkTime(i) {
-                if (i < 10) {
-                    i = "0" + i
-                }; // add zero in front of numbers < 10
-                return i;
-            }
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+          setTimeout(startTime, 1000);
+        }
+        
+        function checkTime(j) {
+          if (j < 10)  {j = "0" + j};  // add zero in front of numbers < 10
+          return j;
+        }
         </script>
-        <p> (Central U.S. Time)</p>
+
+        <P>Welcome!</P>
         <p>If the site is zoomed out or the image is zoomed out then zoom to 125%</p>
         <!-- epic markdown fail incomming -->
-        <p>HEY THIS IS THE <b>THIRD</b> line why are you still here?!</p>
-        <!-- MARKDOWN FAIL!1!111!!!!11111!!!!!!!!11111 -->
-        <p>Massive thanks oofie for helping me"</p>
+        <p>Massive thanks oofie for helping me</p>
         <!-- before we start massife thanks to offie over on discord for helping a ton -->
         <p>Now let's get started</p>
         <h1>News</h1>
@@ -96,7 +94,7 @@
             p.mix {border-style: dotted dashed solid double;}
             </style>
 
-     
+
     </body>
 
 </html>
