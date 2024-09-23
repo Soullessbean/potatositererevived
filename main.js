@@ -1,31 +1,33 @@
 //by ~potato~#4473 :)//
 //Don't steal this please//
 //also credit to oofie massife help lol//
-var password = "Sk0o1C4rn4g3";
-!
+// var password = "owlsauce";
+// !
 
 
 // Repeatedly prompt for user password until success:
-(function closewin() {
+// (function closewin() {
 
-    var psw = prompt("Enter your Password");
+    // var psw = prompt("Enter your Password");
 
-    while (psw !== password) {
-        alert("Incorrect Password now suffer the INFINITE REPEAT!");
-        closeWin();
+    // while (psw !== password) {
+   //     alert("Incorrect Password now suffer the INFINITE REPEAT!");
+ //       closeWin();
         //return promptPass(); // potato test this out plz if it doesn't work uncomment the return thing
-    }
+//    }
 
-}());
+// }());
 
 // stole this from w3schools - oofie //nice -potato
-function closeWin() {
-    close();
-}
+// function closeWin() {
+//    close();
+// }
+
+// this is now going to be for an arg im doing in my DM class, im gonna comment legacy code
 
 
-
-alert('Welcome to the Potato site Re:Revived have fun!');
+// alert('Welcome to the Potato site Re:Revived have fun!');
+alert('Welcome to the Offical site for Owl Sauce');
 
 //( ͡° ͜ʖ ͡°)//
 //hey it's potato and i kindly ask you to leave// 
